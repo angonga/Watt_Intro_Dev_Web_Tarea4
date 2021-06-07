@@ -49,3 +49,40 @@ ul{
 #Tw{
     color: blue;
 }
+
+/* Seccion Operaciones */
+#toggleBloque {
+    display: block;
+    /* border-radius: 20px; */
+    background: rgba(128 128 128);
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.operations {
+    margin: 10px 0;
+}
+.operations button {
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background: white;
+}
+#OperationsMenu {
+    /* la siguiente linea esta comentada pero se debe descomentar para que funcione 
+    correctamente el toggle. La comente para que pudieran ver la estructura HTML de esta seccion. */
+    /* display: none; */
+    padding: 20px 0;
+}
+input {
+    border: none;
+    width: 100px;
+    height: 20px;
+}
+/* Fin Seccion Operaciones */

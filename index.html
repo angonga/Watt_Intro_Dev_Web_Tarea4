@@ -34,8 +34,21 @@
             <li id="Tw"><a><i class="fab fa-twitter"></i> Twitter</a></li>
             <li id="Li"><a><i class="fab fa-linkedin"></i> LinkedIn</a></li>
         </ul>
+        <button id="toggleBloque" onclick="toggleSection()">Mostrar operaciones</button>
+        <div id="OperationsMenu">
+            <label for="myVar1">Primer número:</label>
+            <input type="number" id="myVar1" onchange="validarVacios()">
+            <label for="myVar2">Segundo número:</label>
+            <input type="number" id="myVar2" onchange="validarVacios()">
+            <div class="operations">
+                <button onclick="add()">Sumar</button>
+                <button onclick="subtract()">Restar</button>
+                <button onclick="multiply()">Multiplicar</button>
+            </div>
+            <p id="result">El resultado es:</p>
+        </div>
     </div>
     <footer><small>Hecho por Andrea González</small></footer>
+    <script src="scripts/script.js"></script>
 </body>
-
 </html>
